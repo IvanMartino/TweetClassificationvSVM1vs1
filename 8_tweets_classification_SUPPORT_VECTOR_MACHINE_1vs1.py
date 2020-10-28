@@ -284,7 +284,7 @@ def compute_accuracies(model, d, screen_names, X_train, X_dev, Y_train, Y_dev):
 
 
 """
-We classify the users in FILE_USERS using the data in all_tweets.txt via a two hidden layers Neural Network algorithm.
+We classify the users in FILE_USERS using the data in all_tweets.txt via Support Vector Machine.
 To create all_tweets.txt have a look at the file create_and_update_data.py
 
 There are a few parameters to set, all in the beginning of the main:
